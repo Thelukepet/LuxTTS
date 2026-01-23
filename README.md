@@ -4,6 +4,10 @@
     <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Model-FFD21E" alt="Hugging Face Model">
   </a>
   &nbsp;
+  <a href="https://huggingface.co/spaces/YatharthS/LuxTTS">
+    <img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Space-blue" alt="Hugging Face Space">
+  </a>
+  &nbsp;
   <a href="https://colab.research.google.com/drive/1cDaxtbSDLRmu6tRV_781Of_GSjHSo1Cu?usp=sharing">
     <img src="https://img.shields.io/badge/Colab-Notebook-F9AB00?logo=googlecolab&logoColor=white" alt="Colab Notebook">
   </a>
@@ -21,9 +25,10 @@ https://github.com/user-attachments/assets/a3b57152-8d97-43ce-bd99-26dc9a145c29
 - Efficiency: Fits within 1gb vram meaning it can fit in any local gpu.
 
 ## Usage
-You can try it locally or on colab
+You can try it locally, colab, or spaces.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cDaxtbSDLRmu6tRV_781Of_GSjHSo1Cu?usp=sharing)
+[![Open in Spaces](https://huggingface.co/datasets/huggingface/badges/resolve/main/open-in-hf-spaces-sm.svg)](https://huggingface.co/spaces/YatharthS/LuxTTS)
 
 #### Simple installation:
 ```

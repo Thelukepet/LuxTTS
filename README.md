@@ -74,7 +74,7 @@ prompt_audio = 'audio_file.wav'
 rms = 0.01 ## higher makes it sound louder(0.01 or so recommended)
 t_shift = 0.9 ## sampling param, higher can sound better but worse WER
 num_steps = 4 ## sampling param, higher sounds better but takes longer(3-4 is best for efficiency)
-speed = 1.0 ## sampling param, controls speed of audio(lower=faster)
+speed = 1.0 ## sampling param, controls speed of audio(lower=slower)
 return_smooth = False ## sampling param, makes it sound smoother possibly but less cleaner
 
 ## encode audio(takes 10s to init because of librosa first time)

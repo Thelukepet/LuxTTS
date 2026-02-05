@@ -49,11 +49,11 @@ def process_audio(
 ):
     prompt_wav, sr = librosa.load(audio, sr=24000, duration=duration)
 
-    # 如果提供了文本，使用它作为参考文本
+    # If there is text use it as reference
     if text is not None:
         prompt_text = text
     else:
-        # 否则使用Whisper自动识别
+        # Use whisper and transcribe text
         prompt_wav2, sr = librosa.load(audio, sr=16000, duration=duration)
         prompt_text = transcriber(prompt_wav2)["text"]
         print(f"Using Whisper-recognized text: {prompt_text}")

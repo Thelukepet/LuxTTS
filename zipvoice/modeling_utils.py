@@ -86,7 +86,7 @@ def generate(
     tokens = tokenizer.texts_to_token_ids([text])
     device = next(model.parameters()).device
 
-    speed = speed * 1.3
+    # speed = speed * 1.3
 
     with torch.inference_mode():
         (pred_features, _, _, _) = model.sample(

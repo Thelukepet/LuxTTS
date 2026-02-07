@@ -106,7 +106,7 @@ def generate(
 
     # Padding for the Vocoder
     last_frame = pred_features[:, :, -1:]
-    padding_frames = last_frame.repeat(1, 1, 5)
+    padding_frames = last_frame.repeat(1, 1, 10)
     pred_features = torch.cat([pred_features, padding_frames], dim=2)
 
     wav = vocoder.decode(pred_features).squeeze(1).clamp(-1, 1)
